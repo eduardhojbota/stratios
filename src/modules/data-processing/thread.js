@@ -44,7 +44,8 @@ const processData = (data) => {
 
     return {
         readability: readability.calculateAverage(texts.length),
-        sentiment: sentiment.calculateAverage(texts.length)
+        sentiment: sentiment.calculateAverage(texts.length),
+        activity: analytics.activity.thread(data)
     }
 
 }
