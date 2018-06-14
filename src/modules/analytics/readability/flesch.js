@@ -3,7 +3,7 @@
 const winston = require('../../winston')
 const flesch = require('flesch')
 const syllable = require('syllable')
-const utils = require('../../utils')
+const utils = require('../utils')
 
 const alg = (text) => {
 

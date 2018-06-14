@@ -2,12 +2,15 @@
 
 const winston = require('../../winston')
 const smog = require('smog-formula')
-const utils = require('../../utils')
+const utils = require('../utils')
+
+const smogShort = () => {
+    
+}
 
 const alg = (text) => {
 
     let sentences = utils.sentences(text).length
-    let words = utils.words.all(text).length
     let polysillabicWords = utils.words.polysillabic(text).length
 
     let result = smog({

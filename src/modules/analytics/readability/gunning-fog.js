@@ -2,7 +2,7 @@
 
 const winston = require('../../winston')
 const gunningFog = require('gunning-fog')
-const utils = require('../../utils')
+const utils = require('../utils')
 
 const alg = (text) => {
 

@@ -1,14 +1,13 @@
 const snoowrap = require('../../modules/snoowrap')
-const analytics = require('../../modules/analytics')
 const express = require('express')
 const router = express.Router()
+const dataProcessing = require('../../modules/data-processing')
 
 router.get('/thread/:threadId', async function (req, res, next) {
     try {
         snoowrap.thread(req.params.threadId).then(payload => {
-            var a = analytics.dataProcessing.thread(payload);
             res.send({
-                data: a
+                data: dataProcessing.thread(payload)
             })
         })
     } catch (e) {

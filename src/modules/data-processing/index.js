@@ -1,7 +1,9 @@
 'use strict'
 
 const thread = require('./thread')
+const user = require('./user')
 
 module.exports = {
-    thread
+    thread,
+    user
 }

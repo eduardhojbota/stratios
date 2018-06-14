@@ -2,7 +2,7 @@
 
 const winston = require('../../winston')
 const daleChallFormula = require('dale-chall-formula')
-const utils = require('../../utils')
+const utils = require('../utils')
 
 const alg = (text) => {
 

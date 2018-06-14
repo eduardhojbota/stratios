@@ -4,8 +4,8 @@ const fetch = require('node-fetch')
 let r;
 
 const thread = (threadId) => r.getSubmission(threadId).expandReplies({
-    limit: 10,
-    depth: 10
+    limit: 8,
+    depth: 8
 })
 
 const user = (username) => r.getUser(username).getOverview()

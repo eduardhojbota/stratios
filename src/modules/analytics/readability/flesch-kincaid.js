@@ -3,7 +3,7 @@
 const winston = require('../../winston')
 const fleschKincaid = require('flesch-kincaid')
 const syllable = require('syllable')
-const utils = require('../../utils')
+const utils = require('../utils')
 
 const alg = (text) => {
 
@@ -17,13 +17,11 @@ const alg = (text) => {
         syllable: syllables
     });
 
-    if(sentences == 0){
-        winston.debug('[Flesch Kincaid] Text: %s', text)
-        winston.debug('[Flesch Kincaid] Sentences: %s', sentences)
-        winston.debug('[Flesch Kincaid] Words: %s', words)
-        winston.debug('[Flesch Kincaid] Syllables: %s', syllables)
-        winston.debug('[Flesch Kincaid] Result: %s', result)
-    }
+    winston.debug('[Flesch Kincaid] Text: %s', text)
+    winston.debug('[Flesch Kincaid] Sentences: %s', sentences)
+    winston.debug('[Flesch Kincaid] Words: %s', words)
+    winston.debug('[Flesch Kincaid] Syllables: %s', syllables)
+    winston.debug('[Flesch Kincaid] Result: %s', result)
 
     if(isNaN(result)){
         winston.error('[Flesch Kincaid] Failed for: %s', text)
