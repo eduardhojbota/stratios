@@ -1,4 +1,4 @@
-const snoowrap = require('../../models/snoowrap')
+const snoowrap = require('../../modules/snoowrap')
 const express = require('express')
 const router = express.Router()
 
