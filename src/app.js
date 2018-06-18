@@ -18,4 +18,6 @@ app.use(function (req, res, next) {
     next()
 })
 app.use('/', require('./routes'))
-app.listen(process.env.PORT || 3000, () => winston.info('Express initialized. Port:' + process.env.PORT || 3000))
+
+console.log(process.env.PORT)
+app.listen(process.env.PORT || 3000, () => winston.info('Express initialized. Port: %s', process.env.PORT || 3000))

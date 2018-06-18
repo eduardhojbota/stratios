@@ -27,5 +27,5 @@ if (cluster.isMaster) {
         next()
     })
     app.use('/', require('./routes'))
-    app.listen(3000, () => winston.info('Express initialized. Port: 3000'))
+    app.listen(process.env.PORT || 3000, () => winston.info('Express initialized. Port: %s', process.env.PORT || 3000))
 }
