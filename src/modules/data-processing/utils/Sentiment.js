@@ -3,8 +3,10 @@ class Sentiment {
     processEntry(e) {
         let sentimentData = this.analytics.sentiment.analyze(e)
         this.analysis.score += sentimentData.score
-        this.temp.positive = [...this.temp.positive, ...sentimentData.positive]
-        this.temp.negative = [...this.temp.negative, ...sentimentData.negative]
+        if(this.analysisLevel > 0){
+            this.temp.positive = [...this.temp.positive, ...sentimentData.positive]
+            this.temp.negative = [...this.temp.negative, ...sentimentData.negative]
+        }
         return this.analysis;
     }
 
@@ -17,23 +19,28 @@ class Sentiment {
 
         this.analysis.score /= datasetLength
 
-        processWords('positive');
-        processWords('negative');
+        if(this.analysisLevel > 0){
+            processWords('positive');
+            processWords('negative');
+        }
         
         return this.analysis;
     }
 
-    constructor(analytics) {
+    constructor(analytics, analysisLevel) {
+        this.analysisLevel = analysisLevel || 0;
         this.analysis = {
-            score: 0,
-            words: {
+            score: 0
+        }
+        if(this.analysisLevel > 0){
+            this.analysis.words = {
                 positive: {},
                 negative: {},
             }
-        }
-        this.temp = {
-            positive: [],
-            negative: []
+            this.temp = {
+                positive: [],
+                negative: []
+            }
         }
         this.analytics = analytics;
     }

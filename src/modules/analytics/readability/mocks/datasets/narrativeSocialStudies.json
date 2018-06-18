@@ -1,0 +1,106 @@
+[
+    {
+        "text": "A horse clattered into the barnyard. \"It's Father!\" Debby cried. Before anyone could go to the door, Father was in the kitchen. Everyone was talking at once. \"Let Father talk,\" said Mother. Father told them that the British were coming for the guns stored in Concord. We believe,\" he said, \"that they will march tonight. But when they get to Concord, they will find nothing there. We have moved the guns out. We have stored them in new hiding places in other villages. We have worked very hard.\" Grandmother was frightened. \"Then they will come up Lexington Road!\" she said. \"Quick! Put on your coats, children!\"",
+        "expected": {
+            "fleschKincaid": 2.5,
+            "gunningFog": 3.2,
+            "colemanLiau": 5.6,
+            "smog": 6.2,
+            "automated": 2.7,
+            "flesch": 88.0,
+            "spache": 2.7,
+            "daleChall": 2.4
+        }
+    },
+    {
+        "text": "\"Send Charles Darragh to me at once.\" John sat stiffly in front of the uniformed man. It seemed like a year before Charles arrived. \"Why, John,\" Charles said in surprise. John smiled. Now he could prove that he spied for General Washington. \"Mother sent me. I have some messages for General Washington.\" John took the loose button from his pocket. \"There is a message in Father's code hidden inside.\" Charles uncovered the button. He took out the message and looked at it. \"Please decode the message right away,\" the tall man said. \"Don't, Charles,\" said John. \"Only General Washington is supposed to know.\" Charles laughed at his brother. \"John, this is General Washington.\"",
+        "expected": {
+            "fleschKincaid": 3.8,
+            "gunningFog": 4.1,
+            "colemanLiau": 6.9,
+            "smog": 7.9,
+            "automated": 3.7,
+            "flesch": 79.6,
+            "spache": 3.1,
+            "daleChall": 4.4
+        }
+    },
+    {
+        "text": "Phoebe's mind was whirling as she hurried back toward the house. She was frightened, but she was also determined. She would save General Washington! She had long ago figured that he would likely be shot. During dinner he always sat in a chair by the window. He would make an easy target for anyone sitting outside. If she could get him to change his place, away from that window! His good friend General Gates would be a dinner guest at the house this evening. Everyone else was part of the family or a member of the bodyguard. Over and over she said their names. No one's name began with a T.",
+        "expected": {
+            "fleschKincaid": 4.3,
+            "gunningFog": 5.5,
+            "colemanLiau": 6.1,
+            "smog": 8.0,
+            "automated": 3.5,
+            "flesch": 82.3,
+            "spache": 3.1,
+            "daleChall": 1.8
+        }
+    },
+    {
+        "text": "It was in the morning when Jonathan first heard the bell. He was standing in the warm, open field feeling hot, dirty and bored. His father, not far off, limped as he worked along the newly turned rows of corn. As for Jonathan, he was daydreaming, daydreaming about being a soldier. His older brother was a soldier with General Washington in Pennsylvania. His cousin had joined a county regiment. Jonathan kept waiting for his father to say that he, too, could join. He was, after all, thirteen. But his father only put him off. Jonathan dreamed of one day taking up a gun himself and fighting the enemy. For he had heard his father and his father's friends talk many times about the tyrannical British; their cruel mercenary allies, the German-speaking Hessians; and the hated Tories, those American traitors who had sided with the brutal English king.",
+        "expected": {
+            "fleschKincaid": 7.4,
+            "gunningFog": 7.5,
+            "colemanLiau": 9.0,
+            "smog": 10.0,
+            "automated": 6.9,
+            "flesch": 66.3,
+            "spache": 4.6,
+            "daleChall": 4.5
+        }
+    },
+    {
+        "text": "Standing quietly in the crowd, he saw Sam Adams, pretending to be a most innocent bystander. It looked to Johnny as if the dog fox had eaten a couple of fat pullets, and had a third in his mouth. As they started marching back to the center of town, they passed the Coffin House at the head of Griffin's Warf. A window opened. \"Well, boys,\" said a voice, so cold one hardly knew whether he spoke in anger or not, 'you've had a fine night for your Indian caper, haven't you? But mind... you've got to pay the fiddler yet.\" It was the British Admiral Montague. \"Come on down here,\" someone yelled, \"and we'll settle that score tonight.\" The Admiral pulled in his head and slapped down the window. Johnny and Rab knew, and men like the Observers knew, but the best of all Sam Adams knew, that the fiddler would have to be paid.",
+        "expected": {
+            "fleschKincaid": 5.2,
+            "gunningFog": 7.2,
+            "colemanLiau": 6.0,
+            "smog": 8.6,
+            "automated": 4.7,
+            "flesch": 82.8,
+            "spache": 4.6,
+            "daleChall": 4.5
+        }
+    },
+    {
+        "text": "General Thomas Gage awoke before dawn one morning early in April 1775 and went to his office in Province House overlooking Boston Harbor. He paced back and forth, his hands clasped behind his back, deep in thought. There was a lot to think about. On the desk lay reports from spies, “good” Yankees loyal to their king. Their reports detailed, among other things, the movements of John Hancock and Sam Adams. Both were preparing to attend the Second Continental Congress and would be staying with Hancock’s relative, the Reverend Jonas Clark, at Lexington, a village twelve miles northwest of Boston. Five miles up the road, at Concord, patriots had stored enough supplies for a small army: muskets and cannon, barrels of gunpowder and bullets, tents, medicines, food, entrenching tools. Gage made his plans carefully, telling as few people as possible of his intentions. On the eighteenth of April, Redcoats would be rowed across Boston Harbor under cover of darkness for a raid to capture the patriot leaders and destroy their supplies. With one swift blow Gage would smash the rebellion before it began.",
+        "expected": {
+            "fleschKincaid": 9.2,
+            "gunningFog": 9.9,
+            "colemanLiau": 11.3,
+            "smog": 10.4,
+            "automated": 10.7,
+            "flesch": 61.5,
+            "spache": 5.7,
+            "daleChall": 5.4
+        }
+    },
+    {
+        "text": "In July, through the offices of a friend (Dolly), I received a letter from John Hancock, now president of the Continental Congress, recommending my cousin Matthias Ogden and me to the attention of the recently appointed commanding general of the Continental Army, George Washington of Virginia. I ought to mention that Dolly was appalled when news came to us that Washington had been chosen. \"John was supposed to command the army. I don't understand it.\" But then, at the time no one understood how Washington and his Virginia confederates had managed to wrest for themselves the leadership of what was essentially a New England array. Working together in perfect concert and displaying at all times the most exquisite loyalty to one another, the Virginians pushed to one side not only John Hancock but such talented commanders as Gates and Lee and Artemus Ward. As a matter of course, John Adams would betray his fellow New Englander John Hancock. Lacking personal loyalty to one another as well as any true policy, the New Englanders and the New Yorkers from the beginning gave over to the Virginia junto the American republic—and with relish the junto proceeded to rule us for the better part of a half-century.",
+        "expected": {
+            "fleschKincaid": 13.9,
+            "gunningFog": 15.7,
+            "colemanLiau": 11.3,
+            "smog": 16.2,
+            "automated": 14.0,
+            "flesch": 41.1,
+            "spache": 6.3,
+            "daleChall": 6.6
+        }
+    },
+    {
+        "text": "The missive was dated \"Thursday evening, 9 o'clock, Nov. 4, 1773.\" The Loyal Nine had collaborated on the text, as usual, and perhaps the vengeful tone reflected the lingering sting of cuts and bruises suffered in the fracas at Clark's warehouse. The tea consignees, despite what appeared to be overwhelming odds, didn't scare easily. If anything, their resistance stiffened. Earlier on Thursday, the selectmen of Boston had issued a notice to the community to attend a special town meeting and next day to discuss this alarming affair. The selectmen had been persuaded to convene the townspeople to give formal expression to the community's sentiments regarding the tea, especially since one of the consignees, and several of their friends, so the Gazette reported, had let it be known that if the harassed Gentlemen were asked properly, and not brutishly, they would indeed resign—a report evidently without substance. On Thursday, also, Governor Hutchinson summoned his Council, the small, select upper body of the Provincial legislature, to meet with him to determine an official course of action. Hutchinson had no delusions regarding the degree of support he might expect from his Council, the members of which he knew to be predominantly anti-administration, but he felt that it was his duty to make the try.",
+        "expected": {
+            "fleschKincaid": 14.4,
+            "gunningFog": 17.0,
+            "colemanLiau": 12.8,
+            "smog": 15.9,
+            "automated": 15.5,
+            "flesch": 38.4,
+            "spache": 7.0,
+            "daleChall": 6.7
+        }
+    }
+]

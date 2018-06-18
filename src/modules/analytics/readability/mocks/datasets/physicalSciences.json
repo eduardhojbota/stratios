@@ -1,0 +1,119 @@
+[
+    {
+        "text": "The earth we live on is in space. Space is all the room there is outside Earth's air. Earth—our home in space—is a planet. A planet is a large world that travels around the sun. But the sun isn't a planet. It's a star that is a million times bigger than Earth. Earth isn't the only planet that travels around the sun. There are eight others— some bigger than Earth, some smaller. The sun, together with its family of nine planets, is called the solar system.",
+        "expected": {
+            "fleschKincaid": 3.1,
+            "gunningFog": 5.3,
+            "colemanLiau": 4.8,
+            "smog": 6.4,
+            "automated": 2.4,
+            "flesch": 90.2,
+            "spache": 2.9,
+            "daleChall": 2.6
+        }
+    },
+    {
+        "text": "The stars, like the sun, are always in the sky, and they are always shining. In the daytime the sky is so bright that the stars do not show. But when the sky darkens, there they are. What are the stars, you wonder, and how do they twinkle? Stars are huge balls of hot, hot, gas. They are like the sun but they look small because they are much, much farther away. They are millions and trillions of miles away, shining in black space, high above the air. Space is empty and does not move. Stars do not twinkle there, but twinkling begins when starlight hits the air. The air moves and tosses the light around.",
+        "expected": {
+            "fleschKincaid": 3.1,
+            "gunningFog": 5.3,
+            "colemanLiau": 5.5,
+            "smog": 5.7,
+            "automated": 3.5,
+            "flesch": 93.7,
+            "spache": 2.9,
+            "daleChall": 1.4
+        }
+    },
+    {
+        "text": "The Milky Way galaxy stretches across the sky in the shape of a large wheel. It has many millions of stars in it. Our sun is only one little star out near the edge of the galaxy. When the moon is not shining, the galaxy does not look milky. With a pair of binoculars, it is possible to see stars in the Milky Way. Earth is part of the Milky Way galaxy. To discover what our own galaxy is really like, scientists study other galaxies through powerful telescopes. They know from these studies that galaxies turn and that stars circle around inside them. Planets may then circle around the stars, just as Earth revolves around its nearest star, the sun. It is difficult to comprehend, or understand, how huge the Milky Way galaxy is. It is even more difficult to comprehend all the stars in it.",
+        "expected": {
+            "fleschKincaid": 6.7,
+            "gunningFog": 10.8,
+            "colemanLiau": 7.3,
+            "smog": 10.8,
+            "automated": 5.5,
+            "flesch": 70.5,
+            "spache": 3.4,
+            "daleChall": 3.1
+        }
+    },
+    {
+        "text": "Black holes are probably the weirdest objects in space. They are created during a supernova explosion. If the collapsing core of the exploding star is large enough—more than four times the mass of our sun—it does not stop compressing when it gets as small as a neutron star. The matter crushes itself out of existence. All that remains is the gravity field—a black hole. The object is gone. Anything that comes close to it is swallowed up. Even a beam of light cannot escape. Like vacuum cleaners in space, black holes suck up everything around them. But their reach is short. A black hole would have to be closer than one light-year to have even a small effect on the orbits of the planets in our solar system. A catastrophe such as the swallowing of the Earth or the sun is strictly science fiction.",
+        "expected": {
+            "fleschKincaid": 5.6,
+            "gunningFog": 8.4,
+            "colemanLiau": 7.3,
+            "smog": 9.3,
+            "automated": 5.1,
+            "flesch": 77.1,
+            "spache": 4.1,
+            "daleChall": 3.6
+        }
+    },
+    {
+        "text": "As we have seen, a neutron star would be small and dense. It should also be rotating rapidly. All stars rotate, but most of them do so leisurely. For example, our Sun takes nearly one month to rotate once about its axis. A collapsing star speeds up as its size shrinks, just as an ice skater during a pirouette speeds up when she pulls in her arms. This phenomenon is a direct consequence of a law of physics known as the conservation of angular momentum, which holds that the total amount of angular momentum in a system remains constant. An ordinary star rotating once a month would be spinning faster than once a second if compressed to the size of a neutron star. In addition to having rapid rotation, we expect a neutron star to have an intense magnetic field. It is probably safe to say that every star has a magnetic field of some strength.",
+        "expected": {
+            "fleschKincaid": 8.3,
+            "gunningFog": 12.3,
+            "colemanLiau": 8.0,
+            "smog": 11.9,
+            "automated": 7.7,
+            "flesch": 66.1,
+            "spache": 4.9,
+            "daleChall": 4.6
+        }
+    },
+    {
+        "text": "William Herschel (1738-1822) and his sister, Caroline Herschel (1750-1848), carefully observed many binary star systems. They thought that many pairs of stars were associated with each other by gravitational forces that made them move in orbits around a common point. When they saw these orbital motions, they proved that Newton's law of gravitation operates outside our own solar system. Most stars in our galaxy shine steadily, but more than 20,000 stars are called variables because their light output changes. Over half are pulsating variable stars that change periodically in size and brightness. Red variables take months or years between their brightest and faintest periods. It is interesting to observe the famous variable red supergiant Mira in Cetus. Because Mira changes from its maximum bright red to invisible, it was nicknamed \"The Wonderful.\" Shorter period stars, such as the Cepheid variables, are less common but are important because their light output is used to measure distances in space. You can see the first known Cepheid variable, delta Cephei. It was discovered in 1784 b the teenage English astronomer John Goodricke two years before he died at the age of 21.",
+        "expected": {
+            "fleschKincaid": 10.7,
+            "gunningFog": 12.6,
+            "colemanLiau": 12.6,
+            "smog": 12.7,
+            "automated": 11.1,
+            "flesch": 47.8,
+            "spache": 5.2,
+            "daleChall": 6.0
+        }
+    },
+    {
+        "text": "In this way, a general explanation of the different types of galaxies begins to emerge. In an elliptical galaxy, the stars all formed before the gas had time to flatten into a disk; the more spheroidal the galaxy, the more rapidly this formation occurred. In a spiral galaxy, the stars of population II formed before the end of the flattening phase. When the gas was concentrated in the shape of a flat disk, the stars formed from the gas where the gas was located—i.e., in the disk. It remains to be explained why the formation of stars took place more rapidly in the elliptical than in the spiral galaxies. Inasmuch as we cannot explain in detail how stars form, it is not easy to answer that question. It seems that the rate of formation of stars is related to the density of the gas; the denser the gas, the faster the rate of formation of stars. Therefore, some people have believed that the density of the gas making up the protogalaxy was higher in elliptical galaxies than in spiral galaxies. However, when we consider the average density of matter, currently in the form of stars, that is contained in a galaxy, that average density does not seem to be significantly higher in the ellipticals.",
+        "expected": {
+            "fleschKincaid": 12.1,
+            "gunningFog": 16.5,
+            "colemanLiau": 9.2,
+            "smog": 15.2,
+            "automated": 11.5,
+            "flesch": 51.3,
+            "spache": 5.3,
+            "daleChall": 5.4
+        }
+    },
+    {
+        "text": "To understand how we can have inflation, let us note that Einstein's general theory of relativity tells us that the rate of the universe's expansion is directly related to the density of matter and radiation in it, and since mass and energy are equivalent (E=mc2), this means that the universe's expansion is related to energy density; the higher the universe's energy density, the higher its rate of expansion; and conversely, the lower the energy density, the lower the rate of expansion. Because the early universe was very dense, it initially expanded very rapidly. (It had to or it wouldn't have expanded at all.) In the standard model for cosmological expansion, as time went on, the density decreased, and so the rate of expansion decreased. The reason that the density decreases is that the expansion adds space, so the mass energy is spread out over a larger and larger volume of space. The decrease in the energy density decreases the rate of expansion yet further. But the universe could inflate at a constant rate if somehow the density remained constant, so that even though the distance scale gets bigger, the amount of energy per unit volume remains the same.",
+        "expected": {
+            "fleschKincaid": 15.9,
+            "gunningFog": 21.2,
+            "colemanLiau": 11.1,
+            "smog": 18.2,
+            "automated": 15.1,
+            "flesch": 31.7,
+            "spache": 6.0,
+            "daleChall": 6.8
+        }
+    },
+    {
+        "text": "Since the invention of GUTs in 1974, particle theorists have been vigorously working on attempts to construct the ultimate theory of nature—an elegant theory which would include a quantum description of gravity. The characteristic energy scale of such a theory is presumably the Planck scale, 1019GeV, a point at which the gravitational interactions of elementary particles become comparable in strength to the other types of interactions. It is then hoped that a GUT would emerge as a low-energy approximation. The latest and most successful of these attempts at unification is a radically new kind of particle theory known as ‘superstring theory.’ Superstrings represent a dramatic departure from conventional theories in that particles are viewed as ultramicroscopic strings (length = 10-33 centimeters). Furthermore, according to this theory, the universe has nine spatial dimensions. Early in the history of the universe, when the temperature cooled below 1032 degrees Kelvin, all spatial dimensions, except the three we know today, stopped expanding and remained curled up with an unobservably small extent. As bizarre as the theory may sound, the superstring theory has been shown to possess a number of unique properties crucial to a quantum theory of gravity, and it has totally captured the attention of a large fraction of the worldwide particle theory community.",
+        "expected": {
+            "fleschKincaid": 16.8,
+            "gunningFog": 21.9,
+            "colemanLiau": 14.6,
+            "smog": 19.0,
+            "automated": 16.9,
+            "flesch": 21.2,
+            "spache": 6.8,
+            "daleChall": 8.2
+        }
+    }
+]

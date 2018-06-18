@@ -3,12 +3,11 @@ const express = require('express')
 const router = express.Router()
 const dataProcessing = require('../../modules/data-processing')
 
-router.get('/user/:username', async function (req, res, next) {
+router.get('/user/:username/:analysisLevel?', async function (req, res, next) {
     try {
         snoowrap.user(req.params.username).then(payload => {
-            // res.send(payload)
             res.send({
-                data: dataProcessing.user(payload)
+                data: dataProcessing.user(payload, req.params.analysisLevel)
             })
         })
     } catch (e) {

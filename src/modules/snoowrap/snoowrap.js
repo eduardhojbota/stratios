@@ -4,11 +4,12 @@ const fetch = require('node-fetch')
 let r;
 
 const thread = (threadId) => r.getSubmission(threadId).expandReplies({
-    limit: 8,
-    depth: 8
+    limit: Infinity,
+    depth: Infinity
 })
 
-const user = (username) => r.getUser(username).getOverview()
+const user = (username) => Promise.all([r.getUser(username).getOverview().fetchAll(), r.oauthRequest({ uri: 'user/' + username + '/about' })])
+
 
 const getAccessToken = () => fetch('https://www.reddit.com/api/v1/access_token', {
     method: 'POST',

@@ -1,7 +1,3 @@
 'use strict'
 
-const thread = require('./thread')
-
-module.exports = {
-    thread
-}
+module.exports = require('./activity')

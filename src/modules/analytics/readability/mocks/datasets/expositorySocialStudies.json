@@ -1,0 +1,106 @@
+[
+    {
+        "text": "At first there was the Pilgrim family. Then more people came to this country. There were other bigger families. These families were called COLONIES. There were thirteen colonies at one time. Thirteen families. Sometimes they did not get along together. They quarreled. The leaders thought the thirteen groups should live together as one family. How could this be done? What would hold the people together? One day the leaders met in Philadelphia. They came by boat, by horseback, by stagecoach, and on foot. They wrote the CONSTITUTION.",
+        "expected": {
+            "fleschKincaid": 4.9,
+            "gunningFog": 7.5,
+            "colemanLiau": 8.7,
+            "smog": 9.0,
+            "automated": 5.1,
+            "flesch": 71.2,
+            "spache": 2.5,
+            "daleChall": 1.8
+        }
+    },
+    {
+        "text": "When the British were coming to Philadelphia, the Liberty Bell was taken down from its tower. It was hidden under the floor of a church so that no enemy soldiers could find it. The Congress had to move from Philadelphia to another city—and another—and another. Always the Declaration of Independence went with them. The Declaration was taken to many different places. Once it even spent the night in a barn. It was a dark and sad time for the United States of America. But some of the countries across the sea in Europe sent help.",
+        "expected": {
+            "fleschKincaid": 7.1,
+            "gunningFog": 7.3,
+            "colemanLiau": 7.5,
+            "smog": 10.7,
+            "automated": 5.3,
+            "flesch": 65.4,
+            "spache": 3.4,
+            "daleChall": 2.2
+        }
+    },
+    {
+        "text": "When the Revolutionary War started in 1776, Americans fought under many different flags. One flag had a pine tree on it and the words, \"An Appeal to Heaven.\" Another had a rattlesnake and the words \"Don't Tread On Me.\" Others had \"Liberty or Death\" or \"Conquer or Die.\" The new flag had thirteen stripes—seven red and six white—and thirteen white stars on a field of blue. No one knows who designed this flag or made the first one. According to one story, the first flag was made by Betsy Ross. It is true that Betsy Ross did sew flags during the Revolutionary War. And she lived in Philadelphia. Her house is now a national shrine. But there is no proof that she made the firs official American flag.",
+        "expected": {
+            "fleschKincaid": 5.4,
+            "gunningFog": 5.9,
+            "colemanLiau": 6.5,
+            "smog": 9.3,
+            "automated": 4.3,
+            "flesch": 76.9,
+            "spache": 3.7,
+            "daleChall": 3.3
+        }
+    },
+    {
+        "text": "During nearly two centuries of British rule, the colonists' attitude toward England gradually changed. The early colonists had regarded themselves as English people who happened to live across the ocean from their mother country. For the most part they had been content to be ruled by lawmakers and governors sent from England. The children and grandchildren of these early colonists wanted more of a say in their government, and so England had allowed them to elect assemblies with limited powers. By the 1760s, this was not enough form many colonists. A few were even in favor of the colonies separating from England and becoming a new country. There were several reasons for these growing feelings. By the mid-1700s, the colonies were home to many thousands of less-wealthy English people and to thousands more who had come from such countries as Ireland, Scotland, Germany, the Netherlands, France, and Sweden. Most of these people had never been to Great Britain, did little or no business with the British, and felt little loyalty to England.",
+        "expected": {
+            "fleschKincaid": 10.3,
+            "gunningFog": 12.6,
+            "colemanLiau": 11.3,
+            "smog": 12.5,
+            "automated": 11.1,
+            "flesch": 55.4,
+            "spache": 5.1,
+            "daleChall": 5.0
+        }
+    },
+    {
+        "text": "The London merchants began to worry. To save themselves, they demanded that Parliament repeal the Stamp Act. Benjamin Franklin, representing the colonies in London, went to the House of Commons and warned the British that they were on the road to ruin. If they did not change their policies, there would very likely be rebellion. The Americans, he explained, dearly loved their Mother England, but they loved their liberties even more. The rulers of Britain might still have saved the situation. If they had known the colonists better, they would have realized that Americans would not let their lives be run by others. A shrewder British government might have worked out a cooperative empire. Then there might never have been a War of Independence. But the rulers of Britain were near-sighted and short-sighted. They thought that government by Parliament had to be all-or-nothing. Unlike the Americans, they were not willing to compromise.",
+        "expected": {
+            "fleschKincaid": 7.3,
+            "gunningFog": 8.5,
+            "colemanLiau": 10.7,
+            "smog": 10.5,
+            "automated": 8.1,
+            "flesch": 65.7,
+            "spache": 4.4,
+            "daleChall": 4.9
+        }
+    },
+    {
+        "text": "Americans who were loyal to Britain during the Revolutionary War were called Tories, or Loyalists. They supported the right of Britain to rule the Colonies. This does that mean that they approved of the Crown's treatment of the Colonies. Many, like the rebel patriots, were for individual liberties and against taxation without representation. But the Loyalists recognized the king's ultimate authority in America. About five hundred thousand Americans (fifteen to thirty-six percent of the white population) remained loyal to Britain between 1775 and 1783. In 1780, John Adams believed that five percent of Americans were loyal, but he revised his estimate in 1815 as he reflected on the struggle for independence. He concluded that about one-third of the people opposed the Revolution. Loyalism was weakest in the oldest, best-established colonies, such as Connecticut and Virginia. But although Loyalists were a minority in every colony, there were enough of them to forestall an American victory. Colonists chose Loyalism for many reasons. Although there were exceptions, most Loyalists were landowners, professionals or government officials, and many were wealthy. In many cases they remained loyal in an attempt to preserve their standing in the community.",
+        "expected": {
+            "fleschKincaid": 11.9,
+            "gunningFog": 11.5,
+            "colemanLiau": 13.7,
+            "smog": 13.8,
+            "automated": 11.2,
+            "flesch": 36.0,
+            "spache": 5.2,
+            "daleChall": 6.8
+        }
+    },
+    {
+        "text": "Events like Lexington and Concord, followed by the larger battle at Breed's Hill, cut sharply through the strata of American society. Many men who previously had accepted things as they were now had to declare themselves for or against independence. Conservatives and, in general, those who held offices in America struggled to maintain the connection with England. They angered those who regarded war as the only course, and with each violent incident the breach widened. Radical leaders like Sam Adams, who had urged independence for nearly a decade, seized upon the division and fanned the flames of revolution to white heat. Another firebrand, Thomas Paine, published his pamphlet Common Sense, and at once it became a best seller. The propagandist, as always, had put into words what many men had been thinking but could not say. The British seemed continually to provide reasons for colonial charges against them. The king had already announced that blows must decide the issue, and when he received what was called the Olive Branch Petition from the colonies, he rejected it, stigmatizing all Americans as disloyal. The moderate William Pitt proposed a compromise, but Parliament rejected it.",
+        "expected": {
+            "fleschKincaid": 11.7,
+            "gunningFog": 13.5,
+            "colemanLiau": 12.7,
+            "smog": 14.3,
+            "automated": 12.2,
+            "flesch": 45.5,
+            "spache": 6.2,
+            "daleChall": 6.6
+        }
+    },
+    {
+        "text": "Beginning in 1740, a series of crises undermined the stability of these established political and social orders. Religious turmoil, war with France, and an economic cycle of boom and bust struck in rapid succession. Britain’s sudden imposition of new measures of taxation and control prompted riots, petitions, and the movement for American independence. By 1775, many colonists had repudiated British rule and the traditional monarchical system of government. Many other Americans actively questioned the authority of existing religious institutions and the legitimacy of established political and social distinctions. The struggle for home rule raised the crucial question of who should rule at home. Between 1776 and 1820, the citizens of the new United States created a republican institutional order. While fighting a financially draining war against Great Britain, they devised effective state constitutions and governments. Subsequently, they organized themselves into a strong national union and began the expansion into the trans-Appalachian west. Americans debated, argued, and even fought bitterly with one another during these years. They were divided into distinct social groups, each seeking to defend or extend its own values and interests. In the end, American Revolution had both radical and conservative results.",
+        "expected": {
+            "fleschKincaid": 14.0,
+            "gunningFog": 15.4,
+            "colemanLiau": 16.0,
+            "smog": 15.1,
+            "automated": 13.5,
+            "flesch": 22.8,
+            "spache": 6.2,
+            "daleChall": 7.5
+        }
+    }
+]

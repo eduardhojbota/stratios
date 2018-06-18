@@ -1,29 +1,26 @@
-const numberToText = require('number-to-text')
+const winston = require('../../winston')
 const syllable = require('syllable')
-require('number-to-text/converters/en-us');
+const datasets = require('./datasets')
 
+const compare = (text, dataset) => {
+    let words = [...new Set(text.replace(/[“”…";:,.?¿!¡\(\)\[\]]+/g, '').match(/\S+/g) || [])]
+    return words.filter(value => -1 === dataset.indexOf(value.toLowerCase()));
+}
 
-const getPolysillabicWords = (text) => {
-    let words = getWords(text)
+const complex = (text) => {
+    // let words = [...new Set(text.split(' '))]
+    let words = [...new Set(all(text))]
     return words.filter(e => syllable(e) > 2) || []
 }
 
-const getWords = (text) => text
-    .replace(/['";:,.?¿\-!¡]+/g, '').match(/\S+/g) || []
-
-const getNumbers = (text) => text
-    .match(/([0-9]+[\.\,]?)+/g) || []
-
-const getNumbersToText = (text) => text
-    .map(e => numberToText.convertToText(e)) || []
-
-const words = (text) => {
-    let words = getWords(text)
-    // let numbers = getWords(getNumbersToText(getNumbers(text)).join())
-    return [...words]
+const all = (text) => {
+        // .replace(/([a-zA-Z])\.([a-zA-Z])\./g, '$1 $2').replace(/['";:,?¿\-!¡]+/g, '').match(/\S+/g) || []
+    return text.replace(/[\-—]+/g, ' ').replace(/[“”…’'";:,.?¿!¡\(\)\[\]]+/g, '').match(/\S+/g) || []
 }
 
 module.exports = {
-    all: getWords,
-    polysillabic: getPolysillabicWords
+    all,
+    complex,
+    unfamiliar: (text) => compare(text, datasets.words.spache),
+    difficult: (text) => compare(text, datasets.words.daleChall),
 }

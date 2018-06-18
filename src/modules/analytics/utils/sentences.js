@@ -4,10 +4,12 @@ const getSentences = (fresh_text) => {
     text = text.replace(/[0-9]\.[0-9]/g,"DECIM");//remove uses when number either side e.g. 37.2 degrees
     text = text.replace(/[^A-Za-z\.]/g, " ");
     text = text.replace(/\se\.g\.|\si\.e\.|\smr\.|\smrs\.|\sdr\.|\sms\.|\setc\.|\shwy\.|\srd\.|\sst\.|\spde\.|\scol\.|\sphd\.|\sbsc\.|\sc\.|\sca\.|\sb\.c\.|\sa\.d\.|\sb\.c\.e\.|\sb\.a\.|\scapt\.|\scent\.|\scorp\.|\scomdr\.|\scal\.|\sgal\.|\sdist\.|\sest\.|\set al\.|\sed\.|\sdiv\.|\sdec\.|\sjan\.|\sfeb\.|\smar\.|\sapr\.|\sjun\.|\sjul\.|\saug\.|\ssept\.|\soct\.|\snov\.|\sgov\.|\slat\.|\sm\.d\.|\smg\.|\smt\spl\.|\spop\.|\srev\.|\sr\.n\.|\svol\.|\ssr\.|\ssgt\.|\suniv\.|\svs\.|\swt\./gi,"ABBRV");
+    text = text.replace(/([a-zA-Z])\.([a-zA-Z])\./g, 'ABBRV')
+    text = text.trim();
     var sentenceArray = text.split(".");
-    lastChar =  fresh_text.trim().slice(-1);
-    if( lastChar == "." || lastChar == "?" || lastChar == "!"){ sentenceArray.pop(); }
-    return sentenceArray;
+    // lastChar =  fresh_text.trim().slice(-1);
+    // if( lastChar == "." || lastChar == "?" || lastChar == "!"){ sentenceArray.pop(); }
+    return sentenceArray.filter(Boolean);
 }
 
 const sentences = (text) => {

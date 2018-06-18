@@ -31,11 +31,11 @@ const processComments = (comments) => {
 }
 
 
-const processData = (data) => {
-    let texts = [data.selftext, ...processComments(data.comments)]
+const processData = (data, analysisLevel) => {
+    let texts = [data.selftext || data.title, ...processComments(data.comments)]
 
-    let readability = new utils.Readability(analytics)
-    let sentiment = new utils.Sentiment(analytics)
+    let readability = new utils.Readability(analytics, analysisLevel)
+    let sentiment = new utils.Sentiment(analytics, analysisLevel)
 
     texts.forEach(e => {
         readability.processEntry(e);
@@ -45,7 +45,7 @@ const processData = (data) => {
     return {
         readability: readability.calculateAverage(texts.length),
         sentiment: sentiment.calculateAverage(texts.length),
-        activity: analytics.activity.thread(data)
+        activity: analytics.activity(data.created_utc, data.num_comments)
     }
 
 }

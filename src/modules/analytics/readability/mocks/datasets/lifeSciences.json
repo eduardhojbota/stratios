@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Have you ever visited a pond? The water is still. The air is quiet. You can hear a buzz. Something is flying by. Splash! A shadow moves under the water. Many things are happening here. A green frog is sitting on a green plant. Can you see it? It is hard to see a frog when it sits still. How does a frog’s color help it? A frog can swim in the water. It can also hop on land.",
+        "expected": {
+            "fleschKincaid": 0.9,
+            "gunningFog": 3.3,
+            "colemanLiau": -0.1,
+            "smog": 5.8,
+            "automated": -1.8,
+            "flesch": 98.3,
+            "spache": 2.0,
+            "daleChall": 1.1
+        }
+    },
+    {
+        "text": "Frogs and toads are amphibians without tails. You can tell frogs apart by the patterns on their skins. Some frogs have stripes. The Swamp Tree frog has dark stripes down its back. The Green Tree frog has a light stripe down each side and along its legs. The Sheep frog has a light stripe down the middle of the back. Which is which? Sometimes size is a clue. The bullfrog is big. It can be 8 incesh long. The Green frog is smaller. It gets to be only 3.5 inches long.",
+        "expected": {
+            "fleschKincaid": 1.1,
+            "gunningFog": 3.4,
+            "colemanLiau": 4.0,
+            "smog": 5.5,
+            "automated": 1.4,
+            "flesch": 100.5,
+            "spache": 2.6,
+            "daleChall": 1.4
+        }
+    },
+    {
+        "text": "Most amphibians lay their eggs in the spring. Most of them lay their eggs in the water. The female frog lays lots of eggs. Each one has a ball of jelly around it. The eggs float in clumps on the water. The egg clumps are called spawn. At first the eggs have no eyes or mouths. After a few days the eggs turn into tadpoles. They hang onto plants with their suckers. Soon gills grow on the tadpole’s head. The tadpole breathes through these gills and its skin while new gills grow inside its head. Then it loses the outside gills.",
+        "expected": {
+            "fleschKincaid": 1.6,
+            "gunningFog": 3.8,
+            "colemanLiau": 4.8,
+            "smog": 4.8,
+            "automated": 2.1,
+            "flesch": 98.6,
+            "spache": 2.9,
+            "daleChall": 2.4
+        }
+    },
+    {
+        "text": "Frogs, toads, and salamanders are amphibians. Amphibian comes from a Greek word that means double life. Amphibians begin their life cycle as water animals. They develop into air-breathing animals as they grow up. Female amphibians lay their eggs in wet places. The eggs are covered with a jelly-like material to protect them. The eggs hatch into larvae, or tadpoles. Tadpoles swim in the water and grow legs. When they are adults, amphibians live on land and breathe air. Toad tadpoles grow up quickly. It takes them only a few months to lose their tails and become small toads. After that, it may take as long as three years to become full-grown adults! Toads have been known to live 30 to 40 years. When frog eggs hatch into tadpoles it takes them a very long time to grow up. Several years can go by before the tadpoles become frogs.",
+        "expected": {
+            "fleschKincaid": 4.7,
+            "gunningFog": 6.1,
+            "colemanLiau": 7.3,
+            "smog": 8.0,
+            "automated": 4.5,
+            "flesch": 79.2,
+            "spache": 3.1,
+            "daleChall": 2.8
+        }
+    },
+    {
+        "text": "Most land animals get all the oxygen they need by breathing with the lungs. They expand the rib cage with the chest muscles and draw air into the lungs. The bullfrog, however, has three ways of getting oxygen. The first way is called \"lung breathing.\" Because the frog does not have ribs, it must push air into its lungs with its mouth. About once or twice a minute, it draws in a mouthful of air, then closes its nostrils, and forces the air into the lungs. As it does you can see the frog twitch. In addition to breathing with its lungs, the frog also absorbs oxygen through the roof of its mouth. The roof of the mouth has a network of tiny blood vessels that take in oxygen. To get oxygen to this network, the frog constantly draws air in and out of its mouth only. The process is called \"mouth breathing.\"",
+        "expected": {
+            "fleschKincaid": 5.0,
+            "gunningFog": 7.9,
+            "colemanLiau": 6.5,
+            "smog": 8.3,
+            "automated": 5.1,
+            "flesch": 83.8,
+            "spache": 3.6,
+            "daleChall": 3.8
+        }
+    },
+    {
+        "text": "While all this is happening, the embryo is getting longer. Now the tail bud begins to develop, and the embryo develops suckers beneath the place where the mouth will be. Although it is only about twenty-eight hours old and barely recognizable as a tadpole, the embryo now hatches. Toad embryos emerge very early, while frog and salamander embryos are further along when they come out of their jelly prisons. The small embryos hang by the suckers to the jelly. It will be five more hours before they can move their muscles at all. When they are a little more than an day and a half old, their hearts begin to beat. Soon the blood begins to circulate through the gills, the developing eyes can be seen, the mouth opens, and the suckers begin to disappear. At two and a half days of age, when the blood starts circulating in the tail, they really look like tadpoles.",
+        "expected": {
+            "fleschKincaid": 7.6,
+            "gunningFog": 9.5,
+            "colemanLiau": 8.3,
+            "smog": 9.2,
+            "automated": 7.9,
+            "flesch": 71.7,
+            "spache": 4.3,
+            "daleChall": 3.4
+        }
+    },
+    {
+        "text": "When the tadpoles hatch, they have a tail, suckers and feathery external gills. Gradually, each tadpole undergoes a change of form, or metamorphosis. The external gills are replaced by internal gills. Then legs start to develop, the internal gills are replaced by lungs, and the tadpole becomes a small frog. The eggs and tadpoles of frogs and toads are very vulnerable to predators, and some species have ingenious methods of protecting their young. Asian tree frogs lay their eggs in foam nests on leaves overhanging a stream or pool. When the eggs hatch, the tadpoles drop into the water below and continue their development there. The male smith frog builds a mud basin that fills with water and forms a private pool for the tadpoles. The tadpoles of some frogs develop in tiny pools of water that forms in the leaves of certain plants. The male midwife toad carries his string of eggs wrapped around his legs. When they are ready to hatch, he takes them to a pool of water. In some species, such as the Seychelles frog and the Surinam toad, the tadpoles are carried on the back of one of the parents until they have fully developed. The tadpoles of the mouthbreeding frog develop in the large vocal sac of the male.",
+        "expected": {
+            "fleschKincaid": 7.4,
+            "gunningFog": 10.2,
+            "colemanLiau": 9.3,
+            "smog": 10.4,
+            "automated": 8.4,
+            "flesch": 71.2,
+            "spache": 4.3,
+            "daleChall": 4.5
+        }
+    },
+    {
+        "text": "Frogs and toads have an aquatic larval stage, the familiar tadpole. The fish-like tadpole has gills which are later lost in metamorphosis. The moist skin of frogs and other amphibians contains mucous glands that assist in maintaining the moisture. Moreover, the eggs of amphibians, laid in water or other moist areas, are usually covered with a gelatinous substance. Thus amphibians remain dependent on aquatic (or at least wet) environments in many ways. This group also shows adaptations for living on land. Most importantly, adults have lungs adapted for air breathing and are therefore no longer dependent on water for gas exchange. (It can occur through the skin when amphibians are in water.) Furthermore, the two nostrils are connected to the mouth cavity to facilitate breathing through the lungs. Almost all amphibians have two pare of jointed appendages that permit locomotion both on land and in water. Frogs and toads also have sound-sensitive membranes (\"external eardrums\") on their bodies; such specialized sense organs are essential for land dwellers, because air does not transmit sound waves as efficiently as water. Finally, amphibians have a more efficient type of circulatory system than fish, including a heart with three chambers rather than two.",
+        "expected": {
+            "fleschKincaid": 10.7,
+            "gunningFog": 13.3,
+            "colemanLiau": 12.8,
+            "smog": 13.0,
+            "automated": 11.3,
+            "flesch": 48.0,
+            "spache": 5.6,
+            "daleChall": 6.3
+        }
+    },
+    {
+        "text": "The beginning of neurulation, or the formation of the nervous system in vertebrates, is marked by the appearance of a flattened plate of ectoderm that runs along the back of the embryo. Soon it reaches from the head to the tail. The outer surface of the cells seems to contract and the sides of the plate rise up, leaving a groove between the newly risen skin. Eventually, the skin that forms the neural ridges grows together, forming a hollow fluid-filled tube, the neural tube. As the organism becomes more and more mature, the front end of the neural tube grows and changes shape to form a brain, while the rest of the tube becomes the spinal nerve cord. Other parts of the nervous system form as outgrowths of the neural tub. In the frog, the embryo becomes a self-supporting, free-swimming larva that initially is more fishlike than froglike. Later this larva, the tadpole, undergoes a metamorphosis in which its body is reshaped into a form that is somewhat more suitable for terrestrial life. The fishlike tail is reabsorbed, small fore- and hindlimbs form, and the organism begins to look more like an adult frog.",
+        "expected": {
+            "fleschKincaid": 10.1,
+            "gunningFog": 12.2,
+            "colemanLiau": 9.7,
+            "smog": 11.2,
+            "automated": 11.1,
+            "flesch": 61.8,
+            "spache": 5.8,
+            "daleChall": 5.5
+        }
+    },
+    {
+        "text": "It is possible to calculate that, if a frog oocyte (a developing egg cell) had the same number of ribosomal RNA genes as a body cell of the frog, it would take many years—far longer than a female frog lives—to make an egg with so many ribosomes. Early in the development of the frog oocyte, however, the genes for ribosomal RNA undergo amplification: They are selectively replicated many hundredfold or thousandfold, while the rest of the nuclear DNA undergoes no further replication. These extra copies do not remain with the chromosome from which they are copied; they are \"extrachromasomal\" pieces of DNA that float free in the nucleus. They are all transcribed to yield ribosomal RNA, and egg development is completed in a matter of weeks instead of years. Amplification of ribosomal genes has been observed in other species. Amplification of nonribosomal genes—of structural genes coding for specific proteins, foe example—has not yet been seen, despite intensive and critical search. Rearrangement of structural genes, has however, been detected as a specific even in eukaryotic development. In the development of lymphocytes (the line of white blood cells that make antibodies in vertebrates), two genes that were originally located in different parts of the chromosome are physically combined to form a single functional structural gene that codes for one antibody polypeptide chain.",
+        "expected": {
+            "fleschKincaid": 15.6,
+            "gunningFog": 19.6,
+            "colemanLiau": 13.1,
+            "smog": 17.4,
+            "automated": 16.6,
+            "flesch": 33.4,
+            "spache": 6.5,
+            "daleChall": 6.7
+        }
+    }
+]

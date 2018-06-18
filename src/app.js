@@ -6,8 +6,6 @@ const bodyParser = require('body-parser');
 const express = require('express')
 const winston = require('./modules/winston')
 
-const analytics = require('./modules/analytics')
-
 const app = express()
 
 app.use(bodyParser.urlencoded({

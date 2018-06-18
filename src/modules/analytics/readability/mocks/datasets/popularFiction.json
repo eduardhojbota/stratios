@@ -1,0 +1,92 @@
+[{
+        "text": "Morris the Moose wanted candy. He went to the wrong store. The man in the store said, \"We don't sell candy. Can't you read?\" Then he showed Morris the candy store. The man in the candy store said, \"What would you like?\" Morris looked at the candy. He liked the gumdrops. He said, \"Give me some of those.\" The man said, \"They are one for a penny. How much do you have?\" Morris looked. He had six pennies. \"I have four pennies,\" he said. The man laughed. \"You have six! Can't you count? Don't you go to school?\" Morris asked, \"What is school?\"",
+        "expected": {
+            "fleschKincaid": 0.2,
+            "gunningFog": 2.2,
+            "colemanLiau": 1.3,
+            "smog": 3.1,
+            "automated": -0.6,
+            "flesch": 103.6,
+            "spache": 2.0,
+            "daleChall": 2.3
+        }
+    },
+    {
+        "text": "Farley lived next door to Grover’s garden. He looked out his window and watched Grover planting seeds. Farley called out: “Hi, Grover! Can I help you plant those seeds?” “Why certainly, little Farley! Do not forget to wear a sweater,” said Grover. “It is just a little bit cold outside today.” Farley took out his favorite sweater. His grandmother had made it for him. Farley started to put on his sweater. Something was wrong! The hole in the top was too small for his head. The sleeves were too tight. The front of the sweater only came down to the middle of his stomach.",
+        "expected": {
+            "fleschKincaid": 3.0,
+            "gunningFog": 4.1,
+            "colemanLiau": 5.4,
+            "smog": 6.2,
+            "automated": 2.4,
+            "flesch": 87.0,
+            "spache": 2.7,
+            "daleChall": 2.8
+        }
+    },
+    {
+        "text": "Andrew ran all the way home. Then he remembered he had to go to Mrs. Burrow's house to get the key. The secret recipe for freckle juice was folded carefully in the bottom of Andrew's shoe. He was going to put it inside his sock, but he was afraid if his foot got sweaty the ink might blur and he wouldn't be able to read it. So, inside his shoe was safe enough. Even if it was windy nothing could happen to it there. He made up his mind not to read it until he got home. He didn't want to waste any time getting there. And he wasn't the world's fastest reader anyway, even though he'd gotten better since last fall. Still, there might be some hard words that would take a while to figure out.",
+        "expected": {
+            "fleschKincaid": 4.7,
+            "gunningFog": 6.6,
+            "colemanLiau": 5.0,
+            "smog": 6.7,
+            "automated": 3.8,
+            "flesch": 86.1,
+            "spache": 3.8,
+            "daleChall": 2.3
+        }
+    },
+    {
+        "text": "I knew there was no way out. Every kid at the swimming hole was watching as I started for the diving board. My legs trembled so much I could hardly walk. I was only eight years old and going to my death. I stopped as I reached the diving board. I looked down the river. All I had to do was run down the river bank and into the bushes. But if I did, I could never go home again. I was pretty young to go into the mountains and live like a naked savage. If I ran now, I would be a coward. Better by far to drown than to disgrace our family name. I took a deep breath and ran right up the diving board and jumped into the swimming hole. This time I held my breath and kept my mouth shut as I paddled and kicked my way to the surface. Then I began paddling furiously with my arms and kicking my legs. The next thing I knew I had reached the river bank.",
+        "expected": {
+            "fleschKincaid": 3.1,
+            "gunningFog": 5.4,
+            "colemanLiau": 3.5,
+            "smog": 5.7,
+            "automated": 1.9,
+            "flesch": 93.5,
+            "spache": 3.3,
+            "daleChall": 2.1
+        }
+    },
+    {
+        "text": "Our two coaches stopped at a kind of promontory where there was a collection of ruins and relics of the former cities. I had read up the history carefully the night before, but there was so much of it, and a lot of it was so gory and horrifying that I hoped our guests would not expect too much from me. As we started off in the direction of several broken Roman arches I was relieved to see that the people who were really interested in history had their own books with them and were already consulting them for what they wanted to see. Others gathered around the small shop which sold souvenirs and colour slides. Geoffrey joined me and we strolled toward the ruins. \"What a history this place has,\" he remarked. \"One of the bloodiest on record, I'd say. I was reading it up coming over on the plane. Well, Christians in those days certainly suffered and died for their faith.\"",
+        "expected": {
+            "fleschKincaid": 7.7,
+            "gunningFog": 11.2,
+            "colemanLiau": 7.7,
+            "smog": 11.0,
+            "automated": 7.8,
+            "flesch": 72.2,
+            "spache": 4.9,
+            "daleChall": 3.5
+        }
+    },
+    {
+        "text": "It was a sour and savage Korak who bade farewell to his baboon allies upon the following morning. They wished him to accompany them; but the ape-man had no heart for the society of any. Jungle life had encouraged taciturnity in him. His sorrow had deepened this to a sullen moroseness that could not brook even the savage companionship of the ill-natured baboons. Brooding and despondent he took his solitary way into the deepest jungle. He moved along the ground when he knew that Numas was abroad and hungry. He took to the same trees that harbored Sheeta, the panther. He courted death in a hundred ways and a hundred forms. His mind was ever occupied with the reminiscences of Meriem and the happy years that they had spent together. He realized now to the full what she had meant to him. The sweet face, the tanned, supple, little body, the bright smile that always had welcomed his return from the hunt haunted him continually.",
+        "expected": {
+            "fleschKincaid": 7.7,
+            "gunningFog": 9.7,
+            "colemanLiau": 8.7,
+            "smog": 9.8,
+            "automated": 7.3,
+            "flesch": 66.8,
+            "spache": 4.9,
+            "daleChall": 4.3
+        }
+    },
+    {
+        "text": "\"Consider, Captain. When we collided with the creature we were moving, according to the final readout, at warp-four, coming up to warp-six, which we never fully attained. If we suddenly fed a sustained burst of emergency power to the engines, the equivalent of warp-factor seven or eight, it is possible that the surfeit of energy—of food—would dangerously strain the creature's absorptive capacities. \"It would have two choices: to burst from overconsumption or abandon its hold on the Enterprise. If the former happens, we will at least be free to search for another jawanda, without our knowledge of it abilities and habits enlarged. If the latter, we may be able to engage the Boquian mechanism before the engorged creature can escape.\" \"It sounds good,\" admitted McCoy hopefully. \"Why are the Lactrans leery of trying it?\" \"Their reasons are twofold, Doctor. Should the jawanda not be overloaded by the surge of energy, we run the risk as stated by Engineer Scott of losing or warp-drive capability altogether. This would leave us with only impulse power on which to recross a considerable amount of space.\" His gaze momentarily checked a figure displayed on one of the science station's several screens.\"",
+        "expected": {
+            "fleschKincaid": 10.0,
+            "gunningFog": 12.1,
+            "colemanLiau": 10.5,
+            "smog": 12.3,
+            "automated": 9.5,
+            "flesch": 53.4,
+            "spache": 5.7,
+            "daleChall": 5.7
+        }
+    }
+]
