@@ -1,26 +1,42 @@
-const winston = require('../../winston')
 const syllable = require('syllable')
 const datasets = require('./datasets')
 
+const regex = {
+    words: /[\w']+/g,
+    wordsNoNumbers: /[a-zA-Z_']+/g,
+    compoundWords: /[\w]+\-[\w]+/g
+}
+
+// normalize apostrophe, en/em dash, quotation marks
+const normalize = text => text.replace(/’/g,'\'').replace(/[–—]/g, '-').replace(/[“”]/g,'"')
+
 const compare = (text, dataset) => {
-    let words = [...new Set(text.replace(/[“”…";:,.?¿!¡\(\)\[\]]+/g, '').match(/\S+/g) || [])]
-    return words.filter(value => -1 === dataset.indexOf(value.toLowerCase()));
+    text = normalize(text)
+    let words = [...new Set(text.toLowerCase().match(regex.wordsNoNumbers) || [])]
+    return words.filter(value => -1 === dataset.indexOf(value));
 }
 
 const complex = (text) => {
-    // let words = [...new Set(text.split(' '))]
-    let words = [...new Set(all(text))]
+    text = normalize(text)
+    let words = text.replace(regex.compoundWords,'').match(regex.words) || []
+    return words.filter(e => e[0] !== e[0].toUpperCase() && syllable(e) > 2) || []
+}
+
+const polysyllabic = (text) => {
+    text = normalize(text)
+    let words = text.match(regex.words) || []
     return words.filter(e => syllable(e) > 2) || []
 }
 
 const all = (text) => {
-        // .replace(/([a-zA-Z])\.([a-zA-Z])\./g, '$1 $2').replace(/['";:,?¿\-!¡]+/g, '').match(/\S+/g) || []
-    return text.replace(/[\-—]+/g, ' ').replace(/[“”…’'";:,.?¿!¡\(\)\[\]]+/g, '').match(/\S+/g) || []
+    text = normalize(text)
+    return text.match(regex.words) || []
 }
 
 module.exports = {
     all,
     complex,
+    polysyllabic,
     unfamiliar: (text) => compare(text, datasets.words.spache),
     difficult: (text) => compare(text, datasets.words.daleChall),
 }

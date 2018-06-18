@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./src/app.js",
     "dev": "node ./node_modules/nodemon/bin/nodemon.js ../../../src/app.js",
-    "test": "set NODE_ENV=test && mocha \"src/**/*.spec.js\" --reporter dot"
+    "test": "set NODE_ENV=test && mocha \"src/**/*.spec.js\" --reporter dot > ./logs/tests-%time:~0,2%%time:~3,2%%time:~6,2%_%date:~-10,2%%date:~-7,2%%date:~-4,4%.log"
   },
   "author": "Eduard Hojbota",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "node-fetch": "^2.1.2",
     "sentiment": "^5.0.1",
     "snoowrap": "^1.15.2",
-    "syllable": "^3.0.0",
+    "syllable": "git+https://github.com/eduardhojbota/syllable.git",
     "winston": "^3.0.0-rc6"
   },
   "devDependencies": {
