@@ -2,7 +2,9 @@ class Readability {
 
     processEntry(e) {
         this.readabilityFormulas.forEach(formula => {
-            this.scores[formula] += this.analytics.readability[formula](e)
+            if(e.match(/[a-zA-Z0-9]+/g)){
+                this.scores[formula] += this.analytics.readability[formula](e)
+            }
         })
         return this.scores;
     }
