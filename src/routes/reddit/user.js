@@ -2,8 +2,13 @@ const snoowrap = require('../../modules/snoowrap')
 const express = require('express')
 const router = express.Router()
 const dataProcessing = require('../../modules/data-processing')
+const cache = require('express-cache-route')({
+    host: process.env.REDIS_HOST,
+    port: process.env.REDIS_PORT,
+    auth_pass: process.env.REDIS_PASSWORD
+});
 
-router.get('/user/:username/:analysisLevel?', async function (req, res, next) {
+router.get('/user/:username/:analysisLevel?', cache.route(), async function (req, res, next) {
     try {
         snoowrap.user(req.params.username).then(payload => {
             res.send({
