@@ -5,7 +5,8 @@ const dataProcessing = require('../../modules/data-processing')
 const cache = require('express-cache-route')({
     host: process.env.REDIS_HOST,
     port: process.env.REDIS_PORT,
-    auth_pass: process.env.REDIS_PASSWORD
+    auth_pass: process.env.REDIS_PASSWORD,
+    expire: 60 * 60
 });
 
 router.get('/thread/:threadId/:analysisLevel?', cache.route(), async function (req, res, next) {
