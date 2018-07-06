@@ -1,4 +1,4 @@
-const analytics = require('../analytics')
+const analysis = require('./analysis')
 const utils = require('./utils')
 
 const processComments = (comments) => {
@@ -34,8 +34,8 @@ const processComments = (comments) => {
 const processData = (data, analysisLevel) => {
     let texts = [data.selftext || data.title, ...processComments(data.comments)]
 
-    let readability = new utils.Readability(analytics, analysisLevel)
-    let sentiment = new utils.Sentiment(analytics, analysisLevel)
+    let readability = new utils.Readability(analysis, analysisLevel)
+    let sentiment = new utils.Sentiment(analysis, analysisLevel)
 
     texts.forEach(e => {
         readability.processEntry(e);
@@ -45,7 +45,7 @@ const processData = (data, analysisLevel) => {
     return {
         readability: readability.calculateAverage(texts.length),
         sentiment: sentiment.calculateAverage(texts.length),
-        activity: analytics.activity(data.created_utc, data.num_comments)
+        activity: analysis.activity(data.created_utc, data.num_comments)
     }
 
 }

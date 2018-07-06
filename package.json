@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./src/app-clustered.js",
     "dev": "node ./node_modules/nodemon/bin/nodemon.js ../../../src/app.js",
-    "test": "set NODE_ENV=test && mocha \"src/**/*.spec.js\" --reporter dot > ./logs/tests-%time:~0,2%%time:~3,2%%time:~6,2%_%date:~-10,2%%date:~-7,2%%date:~-4,4%.log"
+    "test": "set NODE_ENV=test && mocha \"src/**/*.spec.js\" --reporter dot > ./logs/tests.log"
   },
   "author": "Eduard Hojbota",
   "license": "MIT",

@@ -3,7 +3,7 @@ class Readability {
     processEntry(e) {
         this.readabilityFormulas.forEach(formula => {
             if(e.match(/[a-zA-Z0-9]+/g)){
-                this.scores[formula] += this.analytics.readability[formula](e)
+                this.scores[formula] += this.analysis.readability[formula](e)
             }
         })
         return this.scores;
@@ -16,10 +16,10 @@ class Readability {
         return this.scores;
     }
 
-    constructor(analytics, analysisLevel) {
+    constructor(analysis, analysisLevel) {
         this.scores = {};
-        this.analytics = analytics;
-        this.readabilityFormulas = Object.keys(analytics.readability)
+        this.analysis = analysis;
+        this.readabilityFormulas = Object.keys(analysis.readability)
         this.readabilityFormulas.forEach(formula => {
             this.scores[formula] = 0
         })

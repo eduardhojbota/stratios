@@ -1,5 +1,18 @@
 [
     {
+        "text": "The Australian platypus is seemingly a hybrid of a mammal and reptilian creature",
+        "expected": {
+            "fleschKincaid": 0,
+            "gunningFog": 0,
+            "colemanLiau": 0,
+            "smog": 0,
+            "automated": 0,
+            "flesch": 0,
+            "spache": 0,
+            "daleChall": 0
+        }
+    },
+    {
         "text": "One morning Toad sat in bed. “I have many things to do,” he said. “I will write them all down on a list so that I can remember them.” Toad wrote on a piece of paper: A list of things to do today. Then he wrote: Wake up. “I have done that,” said Toad, and he crossed it out.",
         "expected": {
             "fleschKincaid": 1.2,

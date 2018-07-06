@@ -1,7 +1,7 @@
 'use strict'
 
 const formulas = require('./formulas')
-const winston = require('../../winston')
+const winston = require('../../../winston')
 const utils = require('../utils')
 
 const dependencies = {
