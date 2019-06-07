@@ -14,19 +14,19 @@
   "author": "Eduard Hojbota",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
     "express-cache-route": "^1.5.7",
-    "node-fetch": "^2.1.2",
+    "node-fetch": "^2.6.0",
     "sentiment": "^5.0.1",
-    "snoowrap": "^1.15.2",
-    "syllable": "git+https://github.com/eduardhojbota/syllable.git",
-    "winston": "^3.0.0-rc6"
+    "snoowrap": "^1.16.0",
+    "syllable": "^3.6.1",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "nodemon": "^1.17.5"
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
   }
 }
