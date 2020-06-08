@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Popup</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/popup.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="row align-items-center">
+      <div class="">
+        <img class="header__logo" src="../images/icons/light-icon.svg" alt="">
+      </div>
+      <div class="col">
+        <h1 class="header__title">Stratios</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="js-analytics">
+      <div id="js-analytics-readability">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3>Readability</h3>
+              </div>
+              <div class="col text-right">
+                <h3 id="js-analytics-readability-score"></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <b>Readability grade average</b>
+              </div>
+              <div id="js-analytics-readability-score-average" class="col-3 text-right"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <b>Flesch reading ease</b>
+              </div>
+              <div id="js-analytics-readability-flesch" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Flesch–Kincaid grade level</b>
+              </div>
+              <div id="js-analytics-readability-fleschKincaid" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Gunning fog index</b>
+              </div>
+              <div id="js-analytics-readability-gunningFog" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Coleman–Liau index</b>
+              </div>
+              <div id="js-analytics-readability-colemanLiau" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>SMOG (Simple Measure of Gobbledygook)</b>
+              </div>
+              <div id="js-analytics-readability-smog" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Automated readability index</b>
+              </div>
+              <div id="js-analytics-readability-automated" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Dale–Chall readability formula</b>
+              </div>
+              <div id="js-analytics-readability-daleChall" class="col-3 text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Spache readability formula</b>
+              </div>
+              <div id="js-analytics-readability-spache" class="col-3 text-right"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  
+      <div id="js-analytics-sentiment">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3>Sentiment</h3>
+              </div>
+              <div class="col text-right">
+                <h3 id="js-analytics-sentiment-score"></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <b>Score interpretation</b>
+              </div>
+              <div id="js-analytics-sentiment-score-interpretation" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <span><b>Positive words:</b> <span id="js-analytics-sentiment-positive"></span></span>
+              </div>            
+            </div>
+            <div class="row">
+              <div class="col">
+                <span><b>Negative words:</b> <span id="js-analytics-sentiment-negative"></span></span>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="js-analytics-activity">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row align-items-center">
+              <div class="col">
+                <h3>Activity</h3>
+              </div>
+              <div class="col text-right">
+                <h3 id="js-analytics-activity-score"></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <b>Posts / year</b>
+              </div>
+              <div id="js-analytics-activity-year" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Posts / month</b>
+              </div>
+              <div id="js-analytics-activity-month" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Posts / week</b>
+              </div>
+              <div id="js-analytics-activity-week" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Posts / day</b>
+              </div>
+              <div id="js-analytics-activity-day" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Posts / hour</b>
+              </div>
+              <div id="js-analytics-activity-hour" class="col text-right"></div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>Posts / minute</b>
+              </div>
+              <div id="js-analytics-activity-minute" class="col text-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+
+
+  </div>
+  <script src="../scripts/popup.js"></script>
+</body>
+
+</html>

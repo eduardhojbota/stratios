@@ -1,0 +1,36 @@
+html, 
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 900px;
+}
+
+body,
+input,
+select,
+button {
+    font-family: 'Muli', sans-serif;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.header {
+    padding: 0 32px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+}
+
+.header__logo {
+    width: 48px;
+    height: 48px;
+}
+
+.header__title { 
+    color: white;
+}
+
+#js-analytics { 
+    display: none 
+}

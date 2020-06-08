@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Options</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/options.css">
+
+</head>
+
+<body>
+
+  <form class="container">
+    <div class="row">
+      <h1>Engine</h1>
+    </div>
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col">
+            <h2>Score calculation mechanisms</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col">
+            <span>Badge (minimal)</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-engine-mechanisms-badge" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Popup (basic)</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-engine-mechanisms-popup" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h1>Analytics</h1>
+    </div>
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col">
+            <h2>Readability</h2>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col">
+            <span>Flesch reading ease</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-flesch" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Flesch–Kincaid grade level</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-fleschKincaid" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Gunning fog index</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-gunningFog" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Coleman–Liau index</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-colemanLiau" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>SMOG (Simple Measure of Gobbledygook)</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-smog" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Automated readability index</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-automated" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Dale–Chall readability formula</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-daleChall" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>Spache readability formula</span>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-readability-spache" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <br>
+        <div class="row align-items-center">
+          <div class="col">
+            <p>Readability grade</p>
+          </div>
+          <div class="col">
+            <span>1</span>
+            <input id="js-analytics-readability-grade" type="range" min="1" max="17" value="8">
+            <span>17</span>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col">
+            <p>Readability range</p>
+          </div>
+          <div class="col">
+            <span>1</span>
+            <input id="js-analytics-readability-range" type="range" min="1" max="17" value="8">
+            <span>17</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <fieldset>
+              <legend>Legend</legend>
+              <p>
+                1 - First grade
+              </p>
+              <p>
+                9 - High school freshman
+              </p>
+              <p>
+                13 - College freshman
+              </p>
+              <p>
+                17 - College graduate
+              </p>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-start">
+      <div class="col-sm-6">
+        <div class="row align-items-center">
+          <div class="col">
+            <h2>Sentiment</h2>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-sentiment" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <label for="">Sentiment threshold</label>
+              </div>
+              <div class="col">
+                <input id="js-analytics-sentiment-threshold" type="text" value="0.5">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col">
+            <fieldset>
+              <legend>Legend</legend>
+              <p>Sentiment threshold - separates the negative and positive results from the 0 index (e.g. if sentiment threshold
+                is 0.5, negative results are registered from -0.5 or less and positive results are registered from 0.5 and
+                above) </p>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="row  align-items-center">
+          <div class="col">
+            <h2>Activity</h2>
+          </div>
+          <div class="col">
+            <label class="switch">
+              <input id="js-analytics-activity" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <label for="">User analysis threshold</label>
+              </div>
+              <div class="col">
+                <select id="js-analytics-activity-user" name="">
+                  <option value="minute">Minute</option>
+                  <option value="hour" selected>Hour</option>
+                  <option value="day">Day</option>
+                  <option value="week">Week</option>
+                  <option value="month">Month</option>
+                  <option value="year">Year</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <label for="">Thread analysis threshold</label>
+          </div>
+          <div class="col">
+            <select id="js-analytics-activity-thread" name="">
+              <option value="minute" selected>Minute</option>
+              <option value="hour">Hour</option>
+              <option value="day">Day</option>
+              <option value="week">Week</option>
+              <option value="month">Month</option>
+              <option value="year">Year</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col">
+            <fieldset>
+              <legend>Legend</legend>
+              Analysis threshold - upper analysis limit (e.g. users activity shoult not be counted by minute as it might cause irregularities
+              in the algorithm - the only users that post my minute are bots)
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-end">
+      <button id="js-button-reset" class="button--submit">Reset</button>
+      &nbsp;
+      <button class="button--submit" type="submit">Save</button>
+    </div>
+  </form>
+
+
+  <script src="../scripts/options.js"></script>
+</body>
+
+</html>
